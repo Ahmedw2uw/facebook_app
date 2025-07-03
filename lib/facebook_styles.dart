@@ -4,6 +4,8 @@ import 'package:flutter/widgets.dart';
 abstract final class FacebookColors {
   static const Color blue = Color(0xff1877f2);
   static const Color gray = Color(0xff898F9C);
+  static const Color whitegray = Color(0xffD6DFF1);
+
   static const Color wghit = Color(0xffffffff);
   static const Color black = Color(0xff242527);
 
@@ -19,8 +21,8 @@ abstract final class FacebookTextStyle {
   );
   static const TextStyle blue16normal = TextStyle(
     color: FacebookColors.blue,
-    fontSize: 30,
-    fontWeight: FontWeight.w800,
+    fontSize: 16,
+    fontWeight: FontWeight.w400,
   );
   static const TextStyle blue24extraBbold = TextStyle(
     color: FacebookColors.blue,
@@ -34,7 +36,7 @@ abstract final class FacebookTextStyle {
   );
   static const TextStyle wghit16normal = TextStyle(
     color: FacebookColors.wghit,
-    fontSize: 16,
+    fontSize: 14,
     fontWeight: FontWeight.w400,
   );
   static const TextStyle gray16medume = TextStyle(
@@ -51,5 +53,15 @@ abstract final class FacebookTextStyle {
 }
 
 abstract final class FacebookAssets{
-  
+  static const String faceLogo="assets/face_logo.png";
+  static const String mitaLogo="assets/mita_logo.png";
+  static const String profileIcon="assets/profile_icon.png";
+  static const String profileImage="assets/profile_image.png";
+  static const String routeIcon="assets/route_icon.png";
+  static const String routeImag="assets/route_photo.png";
+  static const String story1Icon="assets/story_1_icon.png";
+  static const String story1Photo="assets/story_1_image.png";
+  static const String story2Icon="assets/story_2_icon.png";
+  static const String story2Photo="assets/story_2_photo.png";
+
 }
