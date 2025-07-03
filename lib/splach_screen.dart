@@ -36,7 +36,7 @@ class _SplachScreenState extends State<SplachScreen> {
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 Image.asset(FacebookAssets.mitaLogo),
-                Text("mitta", style: FacebookTextStyle.blue24normal),
+                Text("meta", style: FacebookTextStyle.blue24normal),
               ],
             ),
           ],
