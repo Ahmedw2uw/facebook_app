@@ -1,4 +1,5 @@
 import 'package:facebook_app/login_screen.dart';
+import 'package:facebook_app/splach_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -11,8 +12,11 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      initialRoute: LoginScreen.routeName,
-      routes: {LoginScreen.routeName: (context) => const LoginScreen()},
+      initialRoute: SplachScreen.routeName,
+      routes: {
+        SplachScreen.routeName: (context) => SplachScreen(),
+        LoginScreen.routeName: (context) => const LoginScreen(),
+      },
     );
   }
 }
