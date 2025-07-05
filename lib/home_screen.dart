@@ -70,7 +70,7 @@ class _HomeScreenState extends State<HomeScreen> {
             ],
           ),
           Divider(color: FacebookColors.gray, thickness: 1, height: 20),
-          Container(
+          SizedBox(
             height: 60,
             child: Row(
               children: [

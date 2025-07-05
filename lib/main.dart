@@ -13,11 +13,11 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      initialRoute: HomeScreen.routeName,
+      initialRoute: SplachScreen.routeName,
       routes: {
         SplachScreen.routeName: (context) => SplachScreen(),
-        LoginScreen.routeName: (context) =>  LoginScreen(),
-        HomeScreen.routeName:(context)=> HomeScreen(),
+        LoginScreen.routeName: (context) => LoginScreen(),
+        HomeScreen.routeName: (context) => HomeScreen(),
       },
     );
   }
