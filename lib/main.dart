@@ -1,3 +1,4 @@
+import 'package:facebook_app/home_screen.dart';
 import 'package:facebook_app/login_screen.dart';
 import 'package:facebook_app/splach_screen.dart';
 import 'package:flutter/material.dart';
@@ -12,10 +13,11 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      initialRoute: SplachScreen.routeName,
+      initialRoute: HomeScreen.routeName,
       routes: {
         SplachScreen.routeName: (context) => SplachScreen(),
-        LoginScreen.routeName: (context) => const LoginScreen(),
+        LoginScreen.routeName: (context) =>  LoginScreen(),
+        HomeScreen.routeName:(context)=> HomeScreen(),
       },
     );
   }
